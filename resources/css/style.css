@@ -1,0 +1,70 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+#top-heading
+{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 3.125rem;
+    color: white;
+    text-align: center;
+}
+.link
+{
+    color: aquamarine;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana;
+}
+h2
+{
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 2.625rem;
+    color: white;
+}
+.para
+{
+    font-family: Verdana;
+    font-size: 1.3125rem;
+    color: gray;
+}
+.present
+{
+    color:gold;
+}
+span
+{
+    color:red;
+}
+#footer
+{
+    float: right;
+}
+.video
+{
+    height: auto;
+    width: 100%;
+}
+.camp
+{
+    width: 896px;
+    height: 527px;
+}
+@media only screen and (max-width: 720px) and (max-height: 1440px) {
+    .camp
+    {
+        width: 100%;
+        height: auto;
+    }
+    .video
+    {
+        height: auto;
+        width: 100%;
+    }
+}
+
